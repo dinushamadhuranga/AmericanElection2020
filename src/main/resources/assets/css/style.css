@@ -1,0 +1,103 @@
+.login-button:hover {
+    -fx-background-color: #382322;
+    -fx-scale-y: 1.01;
+    -fx-scale-x: 1.01;
+    -fx-font-size: bold;
+}
+
+
+.vbox{
+    /*-fx-effect: dropshadow( gaussian , rgba(255,255,255,0.7) , 0,0,0,1 );*/
+    -fx-background-color: rgba(255, 255, 255, 0.2)
+}
+
+
+#menubutton{
+
+}
+
+
+#menubutton:pressed{
+
+    -fx-background-color: rgba(135,186,215,0.7);
+    -fx-text-fill: red;
+    -fx-text-origin: white;
+}
+
+#menubutton:hover{
+    -fx-background-color: #382322;
+    -fx-scale-y: 1.01;
+    -fx-scale-x: 1.01;
+    -fx-font-size: bold;
+}
+
+.button-1{
+    -fx-background-color: red;
+}
+.button-2{
+    -fx-background-color: blue;
+}
+
+.borderPane{
+    -fx-background-image: url("../images/voting.jpg");
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+}
+
+.TranasparentPane{
+    -fx-background-color: rgba(255, 0, 0, 0.1);
+}
+
+.stratButton{
+    -fx-background-color: green;
+    -fx-background-radius: 100px;
+    -fx-border-width: 10px;
+    -fx-border-color: #1acc55;
+    -fx-border-radius: 100px;
+    -fx-text-fill: white;
+    -fx-animated: bli;
+}
+
+.stratButton:hover{
+    -fx-background-color: #1acc55;
+    -fx-text-fill: black;
+    -fx-border-color: green;
+}
+
+.stratButton:pressed{
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6), 10, 0.4, 3, 3);
+    -fx-text-fill: white;
+}
+
+.endButton{
+    -fx-background-color: #aa0000;
+    -fx-background-radius: 100px;
+    -fx-border-width: 10px;
+    -fx-border-color: red;
+    -fx-border-radius: 100px;
+    -fx-text-fill: white;
+}
+
+.endButton:hover{
+    -fx-background-color: red;
+    -fx-border-color: #aa0000;
+    -fx-text-fill: black;
+}
+
+.endButton:pressed{
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6), 10, 0.4, 3, 3);
+    -fx-text-fill: white;
+}
+
+
+#btnBallots{
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-border-width: 2px;
+    -fx-text-fill: black;
+}
+
+#btnBallots:hover{
+    -fx-background-color: black;
+    -fx-text-fill: white;
+    -fx-border-color: white;
+}

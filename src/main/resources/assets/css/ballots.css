@@ -1,0 +1,17 @@
+#my-button {
+    -fx-text-fill: Black;
+    -fx-background-color: rgba(255, 255,  255,  .40);
+    -fx-border-color:  rgba(255, 255,  255,  .80);
+    -fx-border-radius: 8;
+    -fx-padding: 6  6  6  6;
+}
+
+/*#my-button {*/
+/*    -fx-background-color: rgba(255, 255,  255,  .80);*/
+/*}*/
+/*#ballotButtons:hover{
+    -fx-background-color: #382322;
+    -fx-scale-y: 1.11;
+    -fx-scale-x: 1.11;
+    -fx-text-fill: black;
+}*/
